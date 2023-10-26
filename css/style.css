@@ -14,7 +14,7 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -76,7 +76,7 @@ figure {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
-  width: 300px; 
+  width: 400px; 
   position: fixed; 
   overflow-y: scroll;
   z-index: 1001;
@@ -217,11 +217,10 @@ figure {
 
 .container-wrap {
   max-width: auto; /* 1170px */
-  margin: 10 auto; 
-  text-align: center;}
+  margin: 100 auto; }
 
 #colorlib-main {
-  width: calc(100% - 300px);
+  width: calc(100% - 400px);
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -364,7 +363,9 @@ body.offcanvas {
     transform: translateX(300px); }
 
 .colorlib-narrow-content {
-  padding: 0 2.5em; }
+  padding: 0 2.5em; 
+  margin-left: 150px;
+  margin-right: 150px; }
   @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
       padding: 0; } }
@@ -381,8 +382,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 1em;
+  padding-bottom: 5em;
   clear: both;
   width: 100%;
   display: block; }
@@ -405,8 +406,8 @@ body.offcanvas {
   position: relative; }
 
 .colorlib-heading {
-  font-size: 18px;
-  margin-bottom: 4em;
+  font-size: 25px;
+  margin-bottom: 1em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -421,7 +422,7 @@ body.offcanvas {
 .heading-meta {
   margin-bottom: 15px;
   display: block;
-  font-size: 10px;
+  font-size: 15px;
   text-transform: uppercase;
   color: #999999;
   font-weight: 500;
@@ -433,7 +434,7 @@ body.offcanvas {
   margin-bottom: 30px; }
 
 .about-desc h3 {
-  font-size: 18px;
+  font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500; }
