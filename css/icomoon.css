@@ -1517,6 +1517,7 @@
 }
 .icon-facebook2:before {
   content: "\eac0";
+  color: rgb(148, 188, 247)
 }
 .icon-facebook22:before {
   content: "\eac1";

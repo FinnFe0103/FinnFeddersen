@@ -65,19 +65,20 @@ figure {
 
 ::selection {
   color: #fff;
-  background: #2c98f0; }
+  background: #f02c36; }
 
 #colorlib-page {
   width: 100%;
-  overflow: hidden;
-  position: relative; }
+  overflow: auto; /* hidden */
+  position: relative; } /*relative*/
 
 #colorlib-aside {
   padding-top: 3em;
   padding-bottom: 40px;
+  padding-right: 40px;
   float: left;
-  width: 300px;
-  position: fixed;
+  width: 300px; 
+  position: fixed; 
   overflow-y: scroll;
   z-index: 1001;
   background: #f2f3f7;
@@ -216,8 +217,8 @@ figure {
             color: #2c98f0; }
 
 .container-wrap {
-  max-width: 1170px;
-  margin: 0 auto; }
+  max-width: auto; /* 1170px */
+  margin: 10 auto; }
 
 #colorlib-main {
   width: calc(100% - 300px);
