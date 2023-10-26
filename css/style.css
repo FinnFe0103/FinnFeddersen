@@ -65,17 +65,16 @@ figure {
 
 ::selection {
   color: #fff;
-  background: #f02c36; }
+  background: #2c98f0; }
 
 #colorlib-page {
   width: 100%;
-  overflow: auto; /* hidden */
-  position: relative; } /*relative*/
+  overflow: hidden;
+  position: relative; } 
 
 #colorlib-aside {
   padding-top: 3em;
   padding-bottom: 40px;
-  padding-right: 40px;
   float: left;
   width: 300px; 
   position: fixed; 
@@ -218,7 +217,8 @@ figure {
 
 .container-wrap {
   max-width: auto; /* 1170px */
-  margin: 10 auto; }
+  margin: 10 auto; 
+  text-align: center;}
 
 #colorlib-main {
   width: calc(100% - 300px);
